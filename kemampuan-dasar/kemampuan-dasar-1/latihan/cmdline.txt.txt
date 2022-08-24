@@ -1,0 +1,1419 @@
+C:\Users>ipconfig
+
+Windows IP Configuration
+
+
+Wireless LAN adapter Wireless Network Connection:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::8049:725c:b939:4b16%16
+   IPv4 Address. . . . . . . . . . . : 192.168.43.32
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.43.1
+
+Ethernet adapter Local Area Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Ethernet adapter Bluetooth Network Connection 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Tunnel adapter isatap.{8930962F-2531-4420-920E-5EA5F9F453C3}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Tunnel adapter isatap.{32736C89-7CA3-4407-A967-EEB9C7FE65EB}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Tunnel adapter isatap.{D1E8B42A-A8B5-4068-975E-8372F98C7072}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Tunnel adapter Teredo Tunneling Pseudo-Interface:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+C:\Users>netstat
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    192.168.43.32:57143    20.50.80.209:https     TIME_WAIT
+  TCP    192.168.43.32:57145    20.50.80.209:https     TIME_WAIT
+  TCP    192.168.43.32:57691    se-in-f94:https        TIME_WAIT
+  TCP    192.168.43.32:58531    67:1238                SYN_SENT
+  TCP    192.168.43.32:58952    svn:1238               SYN_SENT
+  TCP    192.168.43.32:59404    46.8.8.100:5555        SYN_SENT
+  TCP    192.168.43.32:59856    192.168.164.214:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59857    192.168.164.215:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59858    192.168.164.216:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59859    192.168.164.217:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59860    192.168.164.218:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59861    192.168.164.219:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59862    192.168.164.220:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59863    192.168.164.221:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59864    192.168.164.222:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59865    192.168.164.223:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59866    192.168.164.224:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59867    192.168.164.225:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59868    192.168.164.226:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59869    192.168.164.227:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59870    192.168.164.228:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59871    192.168.164.229:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59872    192.168.164.230:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59873    192.168.164.231:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59874    192.168.164.232:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59875    192.168.164.233:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59876    192.168.164.234:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59877    192.168.164.235:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59878    192.168.164.236:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59879    192.168.164.237:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59880    192.168.164.238:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59881    192.168.164.239:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59882    192.168.164.240:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59883    192.168.164.241:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59884    192.168.164.242:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59885    192.168.164.243:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59886    192.168.164.244:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59887    192.168.164.245:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59888    192.168.164.246:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59889    192.168.164.247:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59890    192.168.164.248:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59891    192.168.164.249:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59892    192.168.164.250:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59893    192.168.164.251:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59894    192.168.164.252:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59895    192.168.164.253:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59896    192.168.164.254:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59897    192.168.164.255:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59898    192.168.165.0:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59899    192.168.165.1:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59900    192.168.165.2:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59901    192.168.165.3:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59902    192.168.165.4:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59903    192.168.165.5:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59904    192.168.165.6:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59905    192.168.165.7:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59906    192.168.165.8:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59907    192.168.165.9:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59908    192.168.165.10:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59909    192.168.165.11:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59910    192.168.165.12:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59911    192.168.165.13:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59912    192.168.165.14:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59913    192.168.165.15:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59914    192.168.165.16:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59915    192.168.165.17:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59916    192.168.165.18:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59917    192.168.165.19:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59918    192.168.165.20:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59919    192.168.165.21:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59920    192.168.165.22:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59921    192.168.165.23:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59922    192.168.165.24:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59923    192.168.165.25:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59924    192.168.165.26:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59925    192.168.165.27:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59926    192.168.165.28:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59927    192.168.165.29:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59928    192.168.165.30:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59929    192.168.165.31:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59930    192.168.165.32:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59931    192.168.165.33:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59932    192.168.165.34:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59933    192.168.165.35:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59934    192.168.165.36:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59935    192.168.165.37:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59936    192.168.165.38:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59937    192.168.165.39:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59938    192.168.165.40:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59939    192.168.165.41:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59940    192.168.165.42:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59941    192.168.165.43:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59942    192.168.165.44:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59943    192.168.165.45:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59944    192.168.165.46:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59945    192.168.165.47:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59946    192.168.165.48:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59947    192.168.165.49:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59948    192.168.165.50:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59949    192.168.165.51:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59950    192.168.165.52:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59951    192.168.165.53:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59952    192.168.165.54:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59953    192.168.165.55:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59954    192.168.165.56:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59955    192.168.165.57:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59956    192.168.165.58:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59957    192.168.165.59:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59958    192.168.165.60:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59959    192.168.165.61:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59960    192.168.165.62:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59961    192.168.165.63:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59962    192.168.165.64:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59963    192.168.165.65:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59964    192.168.165.66:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59965    192.168.165.67:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59966    192.168.165.68:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59967    192.168.165.69:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59968    192.168.165.70:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59969    192.168.165.71:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59970    192.168.165.72:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59971    192.168.165.73:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59972    192.168.165.74:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59973    192.168.165.75:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59974    192.168.165.76:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59975    192.168.165.77:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59976    192.168.165.78:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59977    192.168.165.79:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59978    192.168.165.80:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59979    192.168.165.81:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59980    192.168.165.82:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59981    sc-in-f188:5228        ESTABLISHED
+  TCP    192.168.43.32:59982    192.168.165.83:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59983    192.168.165.84:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59984    192.168.165.85:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59985    192.168.165.86:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59986    192.168.165.87:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59987    192.168.165.88:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59988    192.168.165.89:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59989    192.168.165.90:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59990    192.168.165.91:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59991    192.168.165.92:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59992    192.168.165.93:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59993    192.168.165.94:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59994    192.168.165.95:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59995    192.168.165.96:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59996    192.168.165.97:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59997    192.168.165.98:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59998    192.168.165.99:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:59999    192.168.165.100:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:60000    192.168.165.101:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:60001    192.168.165.102:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:60002    192.168.165.103:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:60003    192.168.165.104:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:60004    192.168.165.105:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:60005    192.168.165.106:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:60006    192.168.165.107:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:60007    192.168.165.108:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:60008    192.168.165.109:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:60009    192.168.165.110:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:60010    192.168.165.111:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:60011    192.168.165.112:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:60012    192.168.165.113:microsoft-ds  SYN_SENT
+  TCP    192.168.43.32:60013    192.168.165.114:microsoft-ds  SYN_SENT
+
+C:\Users\user>pathPing
+
+Usage: pathping [-g host-list] [-h maximum_hops] [-i address] [-n]
+                [-p period] [-q num_queries] [-w timeout]
+                [-4] [-6] target_name
+
+Options:
+    -g host-list     Loose source route along host-list.
+    -h maximum_hops  Maximum number of hops to search for target.
+    -i address       Use the specified source address.
+    -n               Do not resolve addresses to hostnames.
+    -p period        Wait period milliseconds between pings.
+    -q num_queries   Number of queries per hop.
+    -w timeout       Wait timeout milliseconds for each reply.
+    -4               Force using IPv4.
+    -6               Force using IPv6.
+
+C:\Users\user>tracert
+
+Usage: tracert [-d] [-h maximum_hops] [-j host-list] [-w timeout]
+               [-R] [-S srcaddr] [-4] [-6] target_name
+
+Options:
+    -d                 Do not resolve addresses to hostnames.
+    -h maximum_hops    Maximum number of hops to search for target.
+    -j host-list       Loose source route along host-list (IPv4-only
+    -w timeout         Wait timeout milliseconds for each reply.
+    -R                 Trace round-trip path (IPv6-only).
+    -S srcaddr         Source address to use (IPv6-only).
+    -4                 Force using IPv4.
+    -6                 Force using IPv6.
+C:\Users\user>systeminfo
+
+Host Name:                 USER-PC
+OS Name:                   Microsoft Windows 7 Ultimate
+OS Version:                6.1.7601 Service Pack 1 Build 7601
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          user
+Registered Organization:
+Product ID:                00426-OEM-8992662-00537
+Original Install Date:     22/10/2015, 23:12:49
+System Boot Time:          19/08/2022, 11:50:48
+System Manufacturer:       LENOVO
+System Model:              20256
+System Type:               X86-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: x64 Family 6 Model 58 Stepping 9 GenuineIntel ~
+792 Mhz
+BIOS Version:              LENOVO 80CN17WW, 16/09/2013
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             in;Indonesian
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC+07:00) Bangkok, Hanoi, Jakarta
+Total Physical Memory:     1.936 MB
+Available Physical Memory: 882 MB
+Virtual Memory: Max Size:  3.873 MB
+Virtual Memory: Available: 2.460 MB
+Virtual Memory: In Use:    1.413 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\USER-PC
+Hotfix(s):                 204 Hotfix(s) Installed.
+                           [01]: KB2841134
+                           [02]: KB2670838
+                           [03]: KB2830477
+                           [04]: KB2592687
+                           [05]: KB2479943
+                           [06]: KB2491683
+                           [07]: KB2506212
+                           [08]: KB2506928
+                           [09]: KB2509553
+                           [10]: KB2511455
+                           [11]: KB2515325
+                           [12]: KB2532531
+                           [13]: KB2533552
+                           [14]: KB2534111
+                           [15]: KB2536275
+                           [16]: KB2544893
+                           [17]: KB2545698
+                           [18]: KB2547666
+                           [19]: KB2552343
+                           [20]: KB2560656
+                           [21]: KB2563227
+                           [22]: KB2564958
+                           [23]: KB2570947
+                           [24]: KB2574819
+                           [25]: KB2579686
+                           [26]: KB2585542
+                           [27]: KB2604115
+                           [28]: KB2619339
+                           [29]: KB2620704
+                           [30]: KB2621440
+                           [31]: KB2631813
+                           [32]: KB2640148
+                           [33]: KB2647753
+                           [34]: KB2653956
+                           [35]: KB2654428
+                           [36]: KB2656356
+                           [37]: KB2660075
+                           [38]: KB2667402
+                           [39]: KB2676562
+                           [40]: KB2685811
+                           [41]: KB2685813
+                           [42]: KB2685939
+                           [43]: KB2690533
+                           [44]: KB2698365
+                           [45]: KB2705219
+                           [46]: KB2712808
+                           [47]: KB2719857
+                           [48]: KB2726535
+                           [49]: KB2727528
+                           [50]: KB2729094
+                           [51]: KB2732059
+                           [52]: KB2732487
+                           [53]: KB2736422
+                           [54]: KB2742599
+                           [55]: KB2750841
+                           [56]: KB2761217
+                           [57]: KB2763523
+                           [58]: KB2770660
+                           [59]: KB2773072
+                           [60]: KB2786081
+                           [61]: KB2798162
+                           [62]: KB2799926
+                           [63]: KB2800095
+                           [64]: KB2803821
+                           [65]: KB2807986
+                           [66]: KB2808679
+                           [67]: KB2813430
+                           [68]: KB2820331
+                           [69]: KB2834140
+                           [70]: KB2836942
+                           [71]: KB2839894
+                           [72]: KB2840631
+                           [73]: KB2843630
+                           [74]: KB2846960
+                           [75]: KB2847927
+                           [76]: KB2852386
+                           [77]: KB2853952
+                           [78]: KB2857650
+                           [79]: KB2861698
+                           [80]: KB2862152
+                           [81]: KB2862330
+                           [82]: KB2862335
+                           [83]: KB2862973
+                           [84]: KB2864202
+                           [85]: KB2868038
+                           [86]: KB2868116
+                           [87]: KB2868626
+                           [88]: KB2871997
+                           [89]: KB2882822
+                           [90]: KB2884256
+                           [91]: KB2887069
+                           [92]: KB2888049
+                           [93]: KB2891804
+                           [94]: KB2892074
+                           [95]: KB2893294
+                           [96]: KB2893519
+                           [97]: KB2894844
+                           [98]: KB2900986
+                           [99]: KB2908783
+                           [100]: KB2911501
+                           [101]: KB2912390
+                           [102]: KB2918077
+                           [103]: KB2919469
+                           [104]: KB2923545
+                           [105]: KB2928562
+                           [106]: KB2929733
+                           [107]: KB2931356
+                           [108]: KB2937610
+                           [109]: KB2943357
+                           [110]: KB2952664
+                           [111]: KB2957189
+                           [112]: KB2957509
+                           [113]: KB2961072
+                           [114]: KB2965788
+                           [115]: KB2966583
+                           [116]: KB2968294
+                           [117]: KB2970228
+                           [118]: KB2972100
+                           [119]: KB2972211
+                           [120]: KB2972280
+                           [121]: KB2973112
+                           [122]: KB2973201
+                           [123]: KB2973351
+                           [124]: KB2976897
+                           [125]: KB2977292
+                           [126]: KB2977728
+                           [127]: KB2978120
+                           [128]: KB2978742
+                           [129]: KB2979570
+                           [130]: KB2984972
+                           [131]: KB2984976
+                           [132]: KB2985461
+                           [133]: KB2991963
+                           [134]: KB2992611
+                           [135]: KB3003743
+                           [136]: KB3004361
+                           [137]: KB3004375
+                           [138]: KB3005607
+                           [139]: KB3006121
+                           [140]: KB3006137
+                           [141]: KB3006625
+                           [142]: KB3010788
+                           [143]: KB3011780
+                           [144]: KB3013410
+                           [145]: KB3013531
+                           [146]: KB3014406
+                           [147]: KB3019215
+                           [148]: KB3019978
+                           [149]: KB3020338
+                           [150]: KB3020369
+                           [151]: KB3020370
+                           [152]: KB3020388
+                           [153]: KB3021674
+                           [154]: KB3021917
+                           [155]: KB3022777
+                           [156]: KB3023215
+                           [157]: KB3030377
+                           [158]: KB3032655
+                           [159]: KB3033889
+                           [160]: KB3033890
+                           [161]: KB3033929
+                           [162]: KB3035126
+                           [163]: KB3035132
+                           [164]: KB3035583
+                           [165]: KB3037574
+                           [166]: KB3040272
+                           [167]: KB3042553
+                           [168]: KB3045645
+                           [169]: KB3045685
+                           [170]: KB3046002
+                           [171]: KB3046017
+                           [172]: KB3046269
+                           [173]: KB3048761
+                           [174]: KB3054476
+                           [175]: KB3055642
+                           [176]: KB3059317
+                           [177]: KB3060716
+                           [178]: KB3061518
+                           [179]: KB3063858
+                           [180]: KB3064209
+                           [181]: KB3067903
+                           [182]: KB3067904
+                           [183]: KB3068708
+                           [184]: KB3069392
+                           [185]: KB3069762
+                           [186]: KB3071756
+                           [187]: KB3072305
+                           [188]: KB3072630
+                           [189]: KB3072633
+                           [190]: KB3075220
+                           [191]: KB3075226
+                           [192]: KB3075249
+                           [193]: KB3075851
+                           [194]: KB3076895
+                           [195]: KB3076949
+                           [196]: KB3077715
+                           [197]: KB3078071
+                           [198]: KB3078601
+                           [199]: KB3078667
+                           [200]: KB3079757
+                           [201]: KB3080149
+                           [202]: KB3087985
+                           [203]: KB976902
+                           [204]: KB982018
+Network Card(s):           3 NIC(s) Installed.
+                           [01]: Bluetooth Device (Personal Area Network)
+                                 Connection Name: Bluetooth Network Connection 2
+
+                                 Status:          Media disconnected
+                           [02]: Realtek PCIe FE Family Controller
+                                 Connection Name: Local Area Connection
+                                 Status:          Media disconnected
+                           [03]: Qualcomm Atheros AR9485WB-EG Wireless Network A
+dapter
+                                 Connection Name: Wireless Network Connection
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     192.168.43.1
+                                 IP address(es)
+                                 [01]: 192.168.43.32
+                                 [02]: fe80::8049:725c:b939:4b16
+C:\Users\user>ping 8888
+
+Pinging 0.0.34.184 with 32 bytes of data:
+PING: transmit failed. General failure.
+PING: transmit failed. General failure.
+PING: transmit failed. General failure.
+PING: transmit failed. General failure.
+
+Ping statistics for 0.0.34.184:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+C:\Users\user>cipher
+
+ Listing C:\Users\user\
+ New files added to this directory will not be encrypted.
+
+U .android
+U .bash_history
+U .BigNox
+U .gitconfig
+U .spss
+U Contacts
+U d4ac4633ebd6440fa397b84f1bc94a3c.7z
+U Desktop
+U Documents
+U Downloads
+U Favorites
+U inittk.ini
+U inst.ini
+U Links
+U Music
+U Nox_share
+U nuuid.ini
+U Pictures
+U Saved Games
+U Searches
+U useruid.ini
+U Videos
+U vmlogs
+
+C:\Users\user>driverquery
+
+Module Name  Display Name           Driver Type   Link Date
+============ ====================== ============= ======================
+1394ohci     1394 OHCI Compliant Ho Kernel        20/11/2010 17:01:11
+ACPI         Microsoft ACPI Driver  Kernel        20/11/2010 15:37:52
+AcpiPmi      ACPI Power Meter Drive Kernel        20/11/2010 15:47:55
+ACPIVPC      Lenovo Virtual Power C Kernel        24/09/2013 10:17:42
+adp94xx      adp94xx                Kernel        06/12/2008 6:59:55
+adpahci      adpahci                Kernel        02/05/2007 0:29:26
+adpu320      adpu320                Kernel        28/02/2007 7:03:08
+AFD          Ancillary Function Dri Kernel        30/05/2014 13:36:06
+agp440       Intel AGP Bus Filter   Kernel        14/07/2009 6:25:36
+aic78xx      aic78xx                Kernel        12/04/2006 7:20:11
+aliide       aliide                 Kernel        14/07/2009 6:11:17
+amdagp       AMD AGP Bus Filter Dri Kernel        14/07/2009 6:25:36
+amdide       amdide                 Kernel        14/07/2009 6:11:19
+AmdK8        AMD K8 Processor Drive Kernel        14/07/2009 6:11:03
+AmdPPM       AMD Processor Driver   Kernel        14/07/2009 6:11:03
+amdsata      amdsata                Kernel        19/03/2010 8:08:27
+amdsbs       amdsbs                 Kernel        21/03/2009 1:35:26
+amdxata      amdxata                Kernel        19/03/2010 23:19:01
+AppID        AppID Driver           Kernel        03/02/2015 9:16:08
+arc          arc                    Kernel        25/05/2007 4:31:06
+arcsas       arcsas                 Kernel        15/01/2009 2:26:37
+AsyncMac     RAS Asynchronous Media Kernel        14/07/2009 6:54:46
+atapi        IDE Channel            Kernel        14/07/2009 6:11:15
+athr         Qualcomm Atheros Exten Kernel        18/11/2015 10:17:48
+b06bdrv      Broadcom NetXtreme II  Kernel        14/02/2009 5:10:59
+b57nd60x     Broadcom NetXtreme Gig Kernel        26/04/2009 18:15:34
+Beep         Beep                   Kernel        14/07/2009 6:45:00
+blbdrive     blbdrive               Kernel        14/07/2009 6:23:04
+bowser       Browser Support Driver File System   23/02/2011 11:47:32
+BrFiltLo     Brother USB Mass-Stora Kernel        07/08/2006 4:33:45
+BrFiltUp     Brother USB Mass-Stora Kernel        07/08/2006 4:33:45
+Brserid      Brother MFC Serial Por Kernel        07/08/2006 4:33:50
+BrSerWdm     Brother WDM Serial dri Kernel        07/08/2006 4:33:44
+BrUsbMdm     Brother MFC USB Fax On Kernel        07/08/2006 4:33:43
+BrUsbSer     Brother MFC USB Serial Kernel        09/08/2006 19:02:02
+BthEnum      Bluetooth Enumerator S Kernel        14/07/2009 6:51:35
+BTHMODEM     Bluetooth Serial Commu Kernel        14/07/2009 6:51:34
+BthPan       Bluetooth Device (Pers Kernel        14/07/2009 6:51:43
+BTHPORT      Bluetooth Port Driver  Kernel        07/07/2012 2:23:22
+BTHUSB       Bluetooth Radio USB Dr Kernel        28/04/2011 10:15:02
+cdfs         CD/DVD File System Rea File System   14/07/2009 6:11:14
+cdrom        CD-ROM Driver          Kernel        20/11/2010 15:38:09
+circlass     Consumer IR Devices    Kernel        14/07/2009 6:51:17
+CLFS         Common Log (CLFS)      Kernel        04/03/2015 10:00:23
+CLMirrorDriv CLMirrorDriver         Kernel        10/02/2015 9:55:32
+clwvd7       CyberLink WebCam Virtu Kernel        24/03/2015 13:58:09
+CmBatt       Microsoft ACPI Control Kernel        14/07/2009 6:19:18
+cmdide       cmdide                 Kernel        14/07/2009 6:11:18
+CNG          CNG                    Kernel        30/01/2015 10:01:12
+Compbatt     Microsoft Composite Ba Kernel        14/07/2009 6:19:18
+CompositeBus Composite Bus Enumerat Kernel        20/11/2010 16:50:21
+crcdisk      Crcdisk Filter Driver  Kernel        14/07/2009 6:46:05
+CSC          Offline Files Driver   Kernel        20/11/2010 15:44:32
+DfsC         DFS Namespace Client D File System   20/11/2010 15:42:32
+discache     System Attribute Cache Kernel        14/07/2009 6:24:04
+Disk         Disk Driver            Kernel        14/07/2009 6:11:28
+dmvsc        dmvsc                  Kernel        20/11/2010 16:14:48
+drmkaud      Microsoft Trusted Audi Kernel        14/07/2009 6:50:57
+DXGKrnl      LDDM Graphics Subsyste Kernel        16/06/2014 7:43:59
+E1G60        Intel(R) PRO/1000 NDIS Kernel        29/05/2008 6:14:11
+ebdrv        Broadcom NetXtreme II  Kernel        31/12/2008 23:06:23
+elxstor      elxstor                Kernel        04/02/2009 5:09:33
+ErrDev       Microsoft Hardware Err Kernel        14/07/2009 6:19:18
+exfat        exFAT File System Driv File System   14/07/2009 6:14:01
+fastfat      FAT12/16/32 File Syste File System   14/07/2009 6:14:01
+fdc          Floppy Disk Controller Kernel        14/07/2009 6:45:45
+FileInfo     File Information FS Mi File System   14/07/2009 6:21:51
+Filetrace    Filetrace              File System   14/07/2009 6:15:29
+flpydisk     Floppy Disk Driver     Kernel        14/07/2009 6:45:45
+FltMgr       FltMgr                 File System   14/07/2009 6:11:13
+FsDepends    File System Dependency File System   14/07/2009 6:15:38
+fvevol       Bitlocker Drive Encryp Kernel        24/01/2013 9:41:37
+gagp30kx     Microsoft Generic AGPv Kernel        14/07/2009 6:25:42
+hcw85cir     Hauppauge Consumer Inf Kernel        11/05/2009 14:22:41
+HdAudAddServ Microsoft 1.1 UAA Func Kernel        20/11/2010 17:00:19
+HDAudBus     Microsoft UAA Bus Driv Kernel        20/11/2010 16:59:28
+HidBatt      HID UPS Battery Driver Kernel        14/07/2009 6:19:21
+HidBth       Microsoft Bluetooth HI Kernel        14/07/2009 6:51:33
+HidIr        Microsoft Infrared HID Kernel        14/07/2009 6:51:04
+HidUsb       Microsoft HID Class Dr Kernel        20/11/2010 16:59:38
+HpSAMD       HpSAMD                 Kernel        19/05/2009 6:42:46
+HTTP         HTTP                   Kernel        25/02/2015 10:03:11
+hwpolicy     Hardware Policy Driver Kernel        20/11/2010 15:37:35
+i8042prt     i8042 Keyboard and PS/ Kernel        14/07/2009 6:11:23
+iaStorV      iaStorV                Kernel        11/06/2010 7:45:02
+IDMWFP       IDMWFP                 Kernel        19/12/2018 21:52:02
+igfx         igfx                   Kernel        29/11/2015 21:35:19
+iirsp        iirsp                  Kernel        14/12/2005 4:48:01
+IntcDAud     Intel(R) Display Audio Kernel        09/09/2014 19:12:11
+intelide     intelide               Kernel        14/07/2009 6:11:19
+intelppm     Intel Processor Driver Kernel        14/07/2009 6:11:03
+IpFilterDriv IP Traffic Filter Driv Kernel        14/07/2009 6:54:28
+IPMIDRV      IPMIDRV                Kernel        20/11/2010 16:19:14
+IPNAT        IP Network Address Tra Kernel        14/07/2009 6:54:28
+IRENUM       IR Bus Enumerator      Kernel        14/07/2009 6:53:27
+isapnp       isapnp                 Kernel        14/07/2009 6:19:29
+iScsiPrt     iScsiPort Driver       Kernel        04/02/2014 8:17:29
+kbdclass     Keyboard Class Driver  Kernel        14/07/2009 6:11:15
+kbdhid       Keyboard HID Driver    Kernel        20/11/2010 16:50:10
+KSecDD       KSecDD                 Kernel        22/07/2015 23:32:03
+KSecPkg      KSecPkg                Kernel        22/07/2015 23:49:28
+lltdio       Link-Layer Topology Di Kernel        14/07/2009 6:53:18
+LSI_FC       LSI_FC                 Kernel        10/12/2008 5:28:47
+LSI_SAS      LSI_SAS                Kernel        19/05/2009 7:19:55
+LSI_SAS2     LSI_SAS2               Kernel        19/05/2009 7:31:29
+LSI_SCSI     LSI_SCSI               Kernel        17/04/2009 5:14:47
+luafv        UAC File Virtualizatio File System   14/07/2009 6:15:44
+megasas      megasas                Kernel        19/05/2009 8:09:36
+MegaSR       MegaSR                 Kernel        19/05/2009 8:25:17
+MEI          Intel(R) Management En Kernel        09/10/2015 1:10:53
+Modem        Modem                  Kernel        14/07/2009 6:55:24
+monitor      Microsoft Monitor Clas Kernel        14/07/2009 6:25:58
+mouclass     Mouse Class Driver     Kernel        14/07/2009 6:11:15
+mouhid       Mouse HID Driver       Kernel        14/07/2009 6:45:08
+mountmgr     Mount Point Manager    Kernel        15/07/2015 23:34:19
+mpio         mpio                   Kernel        20/11/2010 16:51:28
+mpsdrv       Windows Firewall Autho Kernel        14/07/2009 6:52:52
+MRxDAV       WebDav Client Redirect File System   19/12/2014 8:34:43
+mrxsmb       SMB MiniRedirector Wra File System   22/07/2015 23:33:43
+mrxsmb10     SMB 1.x MiniRedirector File System   22/07/2015 23:34:16
+mrxsmb20     SMB 2.0 MiniRedirector File System   22/07/2015 23:34:01
+msahci       msahci                 Kernel        20/11/2010 16:50:48
+msdsm        msdsm                  Kernel        20/11/2010 16:51:42
+Msfs         Msfs                   File System   14/07/2009 6:11:26
+mshidkmdf    Pass-through HID to KM Kernel        14/07/2009 6:51:07
+msisadrv     msisadrv               Kernel        14/07/2009 6:11:09
+MSKSSRV      Microsoft Streaming Se Kernel        14/07/2009 6:45:08
+MSPCLOCK     Microsoft Streaming Cl Kernel        14/07/2009 6:45:08
+MSPQM        Microsoft Streaming Qu Kernel        14/07/2009 6:45:07
+MsRPC        MsRPC                  Kernel        14/07/2009 6:11:59
+mssmbios     Microsoft System Manag Kernel        14/07/2009 6:19:25
+MSTEE        Microsoft Streaming Te Kernel        14/07/2009 6:45:08
+MTConfig     Microsoft Input Config Kernel        14/07/2009 6:46:55
+Mup          Mup                    File System   14/07/2009 6:14:14
+mvusbews     USB EWS Device         Kernel        26/11/2012 13:54:52
+NativeWifiP  NativeWiFi Filter      Kernel        14/07/2009 6:51:59
+NDIS         NDIS System Driver     Kernel        22/08/2012 21:51:06
+NdisCap      NDIS Capture LightWeig Kernel        14/07/2009 6:52:44
+NdisTapi     Remote Access NDIS TAP Kernel        14/07/2009 6:54:24
+Ndisuio      NDIS Usermode I/O Prot Kernel        20/11/2010 17:06:36
+NdisWan      Remote Access NDIS WAN Kernel        20/11/2010 17:07:48
+NDProxy      NDIS Proxy             Kernel        20/11/2010 17:07:39
+NetBIOS      NetBIOS Interface      File System   14/07/2009 6:53:54
+NetBT        NetBT                  Kernel        20/11/2010 15:39:22
+nfrd960      nfrd960                Kernel        07/06/2006 4:12:15
+Npfs         Npfs                   File System   14/07/2009 6:11:31
+nsiproxy     NSI proxy service driv Kernel        14/07/2009 6:12:08
+Ntfs         Ntfs                   File System   24/01/2014 8:01:10
+Null         Null                   Kernel        14/07/2009 6:11:12
+nvraid       nvraid                 Kernel        20/03/2010 4:00:09
+nvstor       nvstor                 Kernel        20/03/2010 3:51:52
+nv_agp       NVIDIA nForce AGP Bus  Kernel        14/07/2009 6:25:50
+ohci1394     1394 OHCI Compliant Ho Kernel        14/07/2009 6:51:29
+Parport      Parallel port driver   Kernel        14/07/2009 6:45:34
+partmgr      Partition Manager      Kernel        17/03/2012 12:03:08
+Parvdm       Parvdm                 Kernel        14/07/2009 6:45:29
+pci          PCI Bus Driver         Kernel        20/11/2010 15:37:57
+pciide       pciide                 Kernel        14/07/2009 6:11:19
+pcmcia       pcmcia                 Kernel        14/07/2009 6:19:29
+pcw          Performance Counters f Kernel        14/07/2009 6:11:10
+PEAUTH       PEAUTH                 Kernel        03/02/2015 9:58:08
+PptpMiniport WAN Miniport (PPTP)    Kernel        14/07/2009 6:54:47
+Processor    Processor Driver       Kernel        14/07/2009 6:11:03
+Psched       QoS Packet Scheduler   Kernel        14/07/2009 6:53:58
+qcfilter     Qualcomm USB Composite Kernel        24/05/2014 8:01:32
+qcusbnet     Qualcomm USB-NDIS mini Kernel        22/06/2016 4:13:21
+qcusbser     Qualcomm USB Device fo Kernel        22/06/2016 4:12:40
+ql2300       ql2300                 Kernel        23/01/2009 6:28:52
+ql40xx       ql40xx                 Kernel        19/05/2009 8:17:31
+QWAVEdrv     QWAVE driver           Kernel        14/07/2009 6:54:12
+RasAcd       Remote Access Auto Con Kernel        14/07/2009 6:54:40
+RasAgileVpn  WAN Miniport (IKEv2)   Kernel        14/07/2009 6:55:00
+Rasl2tp      WAN Miniport (L2TP)    Kernel        14/07/2009 6:54:33
+RasPppoe     Remote Access PPPOE Dr Kernel        14/07/2009 6:54:53
+RasSstp      WAN Miniport (SSTP)    Kernel        14/07/2009 6:54:57
+rdbss        Redirected Buffering S File System   20/11/2010 15:42:44
+rdpbus       Remote Desktop Device  Kernel        14/07/2009 7:02:40
+RDPCDD       RDPCDD                 Kernel        20/11/2010 17:22:19
+RDPDR        Terminal Server Device Kernel        20/11/2010 17:24:44
+RDPENCDD     RDP Encoder Mirror Dri Kernel        14/07/2009 7:01:39
+RDPREFMP     Reflector Display Driv Kernel        14/07/2009 7:01:41
+RdpVideoMini Remote Desktop Video M Kernel        23/08/2012 21:44:32
+RDPWD        RDP Winstation Driver  Kernel        17/07/2014 8:02:49
+rdyboost     ReadyBoost             Kernel        20/11/2010 16:00:07
+RFCOMM       Bluetooth Device (RFCO Kernel        14/07/2009 6:51:41
+rspndr       Link-Layer Topology Di Kernel        14/07/2009 6:53:20
+RTL8167      Realtek 8167 NT Driver Kernel        01/10/2015 17:23:45
+RTSUER       Realtek USB Card Reade Kernel        15/10/2015 15:07:12
+s3cap        s3cap                  Kernel        20/11/2010 16:14:41
+sbp2port     sbp2port               Kernel        20/11/2010 15:38:08
+SCDEmu       SCDEmu                 Kernel        27/06/2014 12:12:27
+scfilter     Smart card PnP Class F Kernel        20/11/2010 16:24:55
+secdrv       Security Driver        Kernel        13/09/2006 20:18:32
+Serenum      Serenum Filter Driver  Kernel        14/07/2009 6:45:27
+Serial       Serial Port Driver     Kernel        14/07/2009 6:45:33
+sermouse     Serial Mouse Driver    Kernel        14/07/2009 6:45:08
+sffdisk      SFF Storage Class Driv Kernel        14/07/2009 6:45:52
+sffp_mmc     SFF Storage Protocol D Kernel        14/07/2009 6:45:52
+sffp_sd      SFF Storage Protocol D Kernel        20/11/2010 16:50:48
+sfloppy      High-Capacity Floppy D Kernel        14/07/2009 6:45:52
+sisagp       SIS AGP Bus Filter     Kernel        14/07/2009 6:25:35
+SiSRaid2     SiSRaid2               Kernel        25/09/2008 1:19:45
+SiSRaid4     SiSRaid4               Kernel        02/10/2008 4:52:22
+Smb          Message-oriented TCP/I Kernel        14/07/2009 6:53:39
+SmbDrvI      SmbDrvI                Kernel        24/07/2015 5:26:10
+spldr        Security Processor Loa Kernel        11/05/2009 23:13:47
+srv          Server SMB 1.xxx Drive File System   29/04/2011 9:46:30
+srv2         Server SMB 2.xxx Drive File System   29/04/2011 9:46:13
+srvnet       srvnet                 File System   29/04/2011 9:46:08
+stexstor     stexstor               Kernel        18/02/2009 6:03:21
+storflt      Disk Virtual Machine B Kernel        20/11/2010 16:14:37
+storvsc      storvsc                Kernel        20/11/2010 16:14:37
+swenum       Software Bus Driver    Kernel        14/07/2009 6:45:08
+Synth3dVsc   Microsoft Virtual 3D V Kernel        20/11/2010 17:24:48
+Tcpip        TCP/IP Protocol Driver Kernel        05/04/2014 8:10:29
+TCPIP6       Microsoft IPv6 Protoco Kernel        05/04/2014 8:10:29
+tcpipreg     TCP/IP Registry Compat Kernel        03/10/2012 22:21:37
+TDPIPE       TDPIPE                 Kernel        20/11/2010 17:21:10
+TDTCP        TDTCP                  Kernel        17/02/2012 11:13:21
+tdx          NetIO Legacy TDI Suppo Kernel        11/11/2014 8:32:14
+TermDD       Terminal Device Driver Kernel        20/11/2010 17:21:10
+terminpt     Microsoft Remote Deskt Kernel        23/08/2012 21:46:54
+tssecsrv     Remote Desktop Service Kernel        17/07/2014 8:02:30
+TsUsbFlt     TsUsbFlt               Kernel        02/10/2013 7:42:31
+TsUsbGD      Remote Desktop Generic Kernel        02/10/2013 7:43:05
+tsusbhub     Remote Deskotop USB Hu Kernel        20/11/2010 17:24:40
+tunnel       Microsoft Tunnel Minip Kernel        20/11/2010 17:06:40
+uagp35       Microsoft AGPv3.5 Filt Kernel        14/07/2009 6:25:40
+udfs         udfs                   File System   20/11/2010 15:42:27
+uliagpkx     Uli AGP Bus Filter     Kernel        14/07/2009 6:25:47
+umbus        UMBus Enumerator Drive Kernel        20/11/2010 17:00:23
+UmPass       Microsoft UMPass Drive Kernel        14/07/2009 6:51:35
+usbaudio     USB Audio Driver (WDM) Kernel        12/07/2013 17:07:52
+usbccgp      Microsoft USB Generic  Kernel        27/11/2013 8:13:44
+usbcir       eHome Infrared Receive Kernel        12/07/2013 17:07:54
+usbehci      Microsoft USB 2.0 Enha Kernel        27/11/2013 8:13:41
+usbhub       Microsoft USB Standard Kernel        27/11/2013 8:14:23
+usbohci      Microsoft USB Open Hos Kernel        27/11/2013 8:13:38
+usbprint     Microsoft USB PRINTER  Kernel        14/07/2009 7:17:06
+usbscan      USB Scanner Driver     Kernel        03/07/2013 11:02:48
+USBSTOR      USB Mass Storage Drive Kernel        11/03/2011 11:01:12
+usbuhci      Microsoft USB Universa Kernel        27/11/2013 8:13:36
+usbvideo     USB Video Device (WDM) Kernel        12/07/2013 17:08:19
+usb_rndisx   USB RNDIS Adapter      Kernel        12/02/2013 10:32:46
+vdrvroot     Microsoft Virtual Driv Kernel        14/07/2009 6:46:19
+vga          vga                    Kernel        14/07/2009 6:25:49
+VgaSave      VgaSave                Kernel        14/07/2009 6:25:50
+vhdmp        vhdmp                  Kernel        20/11/2010 16:51:49
+viaagp       VIA AGP Bus Filter     Kernel        14/07/2009 6:25:39
+ViaC7        VIA C7 Processor Drive Kernel        14/07/2009 6:11:03
+viaide       viaide                 Kernel        14/07/2009 6:11:20
+vmbus        vmbus                  Kernel        20/11/2010 16:14:58
+VMBusHID     VMBusHID               Kernel        20/11/2010 16:14:44
+volmgr       Volume Manager Driver  Kernel        20/11/2010 15:38:06
+volmgrx      Dynamic Volume Manager Kernel        14/07/2009 6:11:41
+volsnap      Storage volumes        Kernel        20/11/2010 15:38:13
+vsmraid      vsmraid                Kernel        31/01/2009 8:13:29
+vwifibus     Virtual WiFi Bus Drive Kernel        14/07/2009 6:52:02
+vwififlt     Virtual WiFi Filter Dr Kernel        14/07/2009 6:52:03
+WacomPen     Wacom Serial Pen HID D Kernel        14/07/2009 6:46:53
+WANARP       Remote Access IP ARP D Kernel        20/11/2010 17:07:45
+Wanarpv6     Remote Access IPv6 ARP Kernel        20/11/2010 17:07:45
+Wd           Microsoft Watchdog Tim Kernel        14/07/2009 6:11:31
+Wdf01000     Kernel Mode Driver Fra Kernel        22/06/2013 9:29:37
+WfpLwf       WFP Lightweight Filter Kernel        14/07/2009 6:53:51
+WIMMount     WIMMount               File System   14/07/2009 6:17:57
+WinUsb       Android USB Driver     Kernel        20/11/2010 16:59:43
+WmiAcpi      Microsoft Windows Mana Kernel        14/07/2009 6:19:16
+ws2ifsl      Winsock IFS Driver     Kernel        14/07/2009 6:55:01
+WudfPf       User Mode Driver Frame Kernel        26/07/2012 9:33:43
+WUDFRd       WUDFRd                 Kernel        26/07/2012 9:32:51
+YSDrv        VBox Support Driver    Kernel        11/10/2017 15:49:04
+C:\Users\user>mkdir fitraunyu
+
+C:\Users\user>dir
+ Volume in drive C is Win7
+ Volume Serial Number is FC0C-3ECD
+
+ Directory of C:\Users\user
+
+19/08/2022  14:52    <DIR>          .
+19/08/2022  14:52    <DIR>          ..
+01/07/2021  09:25    <DIR>          .android
+18/08/2022  12:35             1.152 .bash_history
+01/07/2021  09:23    <DIR>          .BigNox
+18/08/2022  10:33                61 .gitconfig
+24/05/2018  11:39    <DIR>          .spss
+22/10/2015  23:13    <DIR>          Contacts
+01/07/2021  09:26               296 d4ac4633ebd6440fa397b84f1bc94a3c.7z
+14/05/2022  21:54    <DIR>          Desktop
+14/06/2022  07:35    <DIR>          Documents
+18/08/2022  12:00    <DIR>          Downloads
+22/10/2015  23:13    <DIR>          Favorites
+19/08/2022  14:52    <DIR>          fitraunyu
+23/05/2019  23:12                66 inittk.ini
+23/05/2019  23:11                41 inst.ini
+10/08/2021  02:11    <DIR>          Links
+01/01/2022  04:59    <DIR>          Music
+23/05/2019  23:11    <DIR>          Nox_share
+23/05/2019  23:11                45 nuuid.ini
+25/02/2021  14:59    <DIR>          Pictures
+31/08/2019  13:57    <DIR>          Saved Games
+22/10/2015  23:13    <DIR>          Searches
+23/05/2019  23:11                53 useruid.ini
+10/08/2021  02:12    <DIR>          Videos
+01/07/2021  09:23    <DIR>          vmlogs
+               7 File(s)          1.714 bytes
+              19 Dir(s)  25.641.222.144 bytes free
+
+C:\Users\user>ren fitraunyu ppqs
+
+C:\Users\user>dir
+ Volume in drive C is Win7
+ Volume Serial Number is FC0C-3ECD
+
+ Directory of C:\Users\user
+
+19/08/2022  14:53    <DIR>          .
+19/08/2022  14:53    <DIR>          ..
+01/07/2021  09:25    <DIR>          .android
+18/08/2022  12:35             1.152 .bash_history
+01/07/2021  09:23    <DIR>          .BigNox
+18/08/2022  10:33                61 .gitconfig
+24/05/2018  11:39    <DIR>          .spss
+22/10/2015  23:13    <DIR>          Contacts
+01/07/2021  09:26               296 d4ac4633ebd6440fa397b84f1bc94a3c.7z
+14/05/2022  21:54    <DIR>          Desktop
+14/06/2022  07:35    <DIR>          Documents
+18/08/2022  12:00    <DIR>          Downloads
+22/10/2015  23:13    <DIR>          Favorites
+23/05/2019  23:12                66 inittk.ini
+23/05/2019  23:11                41 inst.ini
+10/08/2021  02:11    <DIR>          Links
+01/01/2022  04:59    <DIR>          Music
+23/05/2019  23:11    <DIR>          Nox_share
+23/05/2019  23:11                45 nuuid.ini
+25/02/2021  14:59    <DIR>          Pictures
+19/08/2022  14:52    <DIR>          ppqs
+31/08/2019  13:57    <DIR>          Saved Games
+22/10/2015  23:13    <DIR>          Searches
+23/05/2019  23:11                53 useruid.ini
+10/08/2021  02:12    <DIR>          Videos
+01/07/2021  09:23    <DIR>          vmlogs
+               7 File(s)          1.714 bytes
+              19 Dir(s)  25.641.222.144 bytes free
+
+C:\Users\user>rmdir ppqs
+
+C:\Users\user>dir
+ Volume in drive C is Win7
+ Volume Serial Number is FC0C-3ECD
+
+ Directory of C:\Users\user
+
+19/08/2022  14:53    <DIR>          .
+19/08/2022  14:53    <DIR>          ..
+01/07/2021  09:25    <DIR>          .android
+18/08/2022  12:35             1.152 .bash_history
+01/07/2021  09:23    <DIR>          .BigNox
+18/08/2022  10:33                61 .gitconfig
+24/05/2018  11:39    <DIR>          .spss
+22/10/2015  23:13    <DIR>          Contacts
+01/07/2021  09:26               296 d4ac4633ebd6440fa397b84f1bc94a3c.7z
+14/05/2022  21:54    <DIR>          Desktop
+14/06/2022  07:35    <DIR>          Documents
+18/08/2022  12:00    <DIR>          Downloads
+22/10/2015  23:13    <DIR>          Favorites
+23/05/2019  23:12                66 inittk.ini
+23/05/2019  23:11                41 inst.ini
+10/08/2021  02:11    <DIR>          Links
+01/01/2022  04:59    <DIR>          Music
+23/05/2019  23:11    <DIR>          Nox_share
+23/05/2019  23:11                45 nuuid.ini
+25/02/2021  14:59    <DIR>          Pictures
+31/08/2019  13:57    <DIR>          Saved Games
+22/10/2015  23:13    <DIR>          Searches
+23/05/2019  23:11                53 useruid.ini
+10/08/2021  02:12    <DIR>          Videos
+01/07/2021  09:23    <DIR>          vmlogs
+               7 File(s)          1.714 bytes
+              18 Dir(s)  25.641.222.144 bytes free
+
+
+C:\Users\user>auditpol
+Usage: AuditPol command [<sub-command><options>]
+
+
+Commands (only one command permitted per execution)
+  /?               Help (context-sensitive)
+  /get             Displays the current audit policy.
+  /set             Sets the audit policy.
+  /list            Displays selectable policy elements.
+  /backup          Saves the audit policy to a file.
+  /restore         Restores the audit policy from a file.
+  /clear           Clears the audit policy.
+  /remove          Removes the per-user audit policy for a user account.
+  /resourceSACL    Configure global resource SACLs
+
+
+Use AuditPol <command> /? for details on each command
+
+C:\Users\user>attrib
+A            C:\Users\user\.bash_history
+A            C:\Users\user\.gitconfig
+A            C:\Users\user\d4ac4633ebd6440fa397b84f1bc94a3c.7z
+A            C:\Users\user\inittk.ini
+A            C:\Users\user\inst.ini
+A  SH   I    C:\Users\user\NTUSER.DAT
+A  SH        C:\Users\user\ntuser.dat.LOG1
+A  SH        C:\Users\user\ntuser.dat.LOG2
+A  SH        C:\Users\user\NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TM.b
+lf
+A  SH        C:\Users\user\NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TMCo
+ntainer00000000000000000001.regtrans-ms
+A  SH        C:\Users\user\NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TMCo
+ntainer00000000000000000002.regtrans-ms
+   SH        C:\Users\user\ntuser.ini
+A            C:\Users\user\nuuid.ini
+A            C:\Users\user\useruid.ini
+
+C:\Users\user>cmdkey
+
+Creates, displays, and deletes stored user names and passwords.
+
+The syntax of this command is:
+
+CMDKEY [{/add | /generic}:targetname {/smartcard | /user:username {/pass{:passwo
+rd}}} | /delete{:targetname | /ras} | /list{:targetname}]
+
+Examples:
+
+  To list available credentials:
+     cmdkey /list
+     cmdkey /list:targetname
+
+  To create domain credentials:
+     cmdkey /add:targetname /user:username /pass:password
+     cmdkey /add:targetname /user:username /pass
+     cmdkey /add:targetname /user:username
+     cmdkey /add:targetname /smartcard
+
+  To create generic credentials:
+     The /add switch may be replaced by /generic to create generic credentials
+
+  To delete existing credentials:
+     cmdkey /delete:targetname
+
+  To delete RAS credentials:
+     cmdkey /delete /ras
+C:\Users\user>bcdboot
+
+Bcdboot - Bcd boot file creation and repair tool.
+
+The bcdboot.exe command-line tool is used to copy critical boot files to the
+system partition and to create a new system BCD store.
+
+bcdboot <source> [/l <locale>] [/s <volume-letter>] [/v]
+                 [/m [{OS Loader ID}]]
+
+  source            Specifies the location of the windows system root.
+
+  /l                Specifies an optional locale parameter to use when
+                    initializing the BCD store. The default is US English.
+
+  /s                Specifies an optional volume letter parameter to designate
+                    the target system partition where boot environment files are
+
+                    copied.  The default is the system partition identified by
+                    the firmware.
+
+  /v                Enables verbose mode.
+
+  /m                If an OS loader GUID is provided, this option merges the
+                    given loader object with the system template to produce a
+                    bootable entry. Otherwise, only global objects are merged.
+
+
+Examples: bcdboot c:\windows /l en-us
+          bcdboot c:\windows /s h:
+          bcdboot c:\windows /m {d58d10c6-df53-11dc-878f-00064f4f4e08}
+
+C:\Users\user>bitsadmin
+
+BITSADMIN version 3.0 [ 7.5.7601 ]
+BITS administration utility.
+(C) Copyright 2000-2006 Microsoft Corp.
+
+BITSAdmin is deprecated and is not guaranteed to be available in future versions
+ of Windows.
+Administrative tools for the BITS service are now provided by BITS PowerShell cm
+dlets.
+
+USAGE: BITSADMIN [/RAWRETURN] [/WRAP | /NOWRAP] command
+The following commands are available:
+
+/HELP           Prints this help
+/?              Prints this help
+/UTIL /?        Prints the list of utilities commands
+/PEERCACHING /?   Prints the list of commands to manage Peercaching
+/CACHE /?       Prints the list of cache management commands
+/PEERS /?       Prints the list of peer management commands
+
+/LIST    [/ALLUSERS] [/VERBOSE]     List the jobs
+/MONITOR [/ALLUSERS] [/REFRESH sec] Monitors the copy manager
+/RESET   [/ALLUSERS]                Deletes all jobs in the manager
+
+/TRANSFER <job name> [type] [/PRIORITY priority] [/ACLFLAGS flags]
+          remote_url local_name
+    Transfers one of more files.
+    [type] may be /DOWNLOAD or /UPLOAD; default is download
+    Multiple URL/file pairs may be specified.
+    Unlike most commands, <job name> may only be a name and not a GUID.
+
+/CREATE [type] <job name>               Creates a job
+    [type] may be /DOWNLOAD, /UPLOAD, or /UPLOAD-REPLY; default is download
+    Unlike most commands, <job name> may only be a name and not a GUID.
+
+/INFO <job> [/VERBOSE]                   Displays information about the job
+/ADDFILE <job> <remote_url> <local_name> Adds a file to the job
+/ADDFILESET <job> <textfile>             Adds multiple files to the job
+   Each line of <textfile> lists a file's remote name and local name, separated
+   by spaces.  A line beginning with '#' is treated as a comment.
+   Once the file set is read into memory, the contents are added to the job.
+
+/ADDFILEWITHRANGES  <job> <remote_url> <local_name range_list>
+   Like /ADDFILE, but BITS will read only selected byte ranges of the URL.
+   range_list is a comma-delimited series of offset and length pairs.
+   For example,
+
+       0:100,2000:100,5000:eof
+
+   instructs BITS to read 100 bytes starting at offset zero, 100 bytes starting
+   at offset 2000, and the remainder of the URL starting at offset 5000.
+
+/REPLACEREMOTEPREFIX <job> <old_prefix> <new_prefix>
+    All files whose URL begins with <old_prefix> are changed to use <new_prefix>
+
+
+Note that BITS currently supports HTTP/HTTPS downloads and uploads.
+It also supports UNC paths and file:// paths as URLS
+
+/LISTFILES <job>                     Lists the files in the job
+/SUSPEND <job>                       Suspends the job
+/RESUME <job>                        Resumes the job
+/CANCEL <job>                        Cancels the job
+/COMPLETE <job>                      Completes the job
+
+/GETTYPE <job>                       Retrieves the job type
+/GETACLFLAGS <job>                   Retrieves the ACL propagation flags
+
+/SETACLFLAGS <job> <ACL_flags>       Sets the ACL propagation flags for the job
+  O - OWNER       G - GROUP
+  D - DACL        S - SACL
+
+  Examples:
+      bitsadmin /setaclflags MyJob OGDS
+      bitsadmin /setaclflags MyJob OGD
+
+/GETBYTESTOTAL <job>                 Retrieves the size of the job
+/GETBYTESTRANSFERRED <job>           Retrieves the number of bytes transferred
+/GETFILESTOTAL <job>                 Retrieves the number of files in the job
+/GETFILESTRANSFERRED <job>           Retrieves the number of files transferred
+/GETCREATIONTIME <job>               Retrieves the job creation time
+/GETMODIFICATIONTIME <job>           Retrieves the job modification time
+/GETCOMPLETIONTIME <job>             Retrieves the job completion time
+/GETSTATE <job>                      Retrieves the job state
+/GETERROR <job>                      Retrieves detailed error information
+/GETOWNER <job>                      Retrieves the job owner
+/GETDISPLAYNAME <job>                Retrieves the job display name
+/SETDISPLAYNAME <job> <display_name> Sets the job display name
+/GETDESCRIPTION <job>                Retrieves the job description
+/SETDESCRIPTION <job> <description>  Sets the job description
+/GETPRIORITY    <job>                Retrieves the job priority
+/SETPRIORITY    <job> <priority>     Sets the job priority
+   Priority usage choices:
+      FOREGROUND
+      HIGH
+      NORMAL
+      LOW
+/GETNOTIFYFLAGS <job>                 Retrieves the notify flags
+/SETNOTIFYFLAGS <job> <notify_flags>  Sets the notify flags
+    For more help on this option, please refer to the MSDN help page for SetNoti
+fyFlags/GETNOTIFYINTERFACE <job>             Determines if notify interface is r
+egistered
+/GETMINRETRYDELAY <job>               Retrieves the retry delay in seconds
+/SETMINRETRYDELAY <job> <retry_delay> Sets the retry delay in seconds
+/GETNOPROGRESSTIMEOUT <job>           Retrieves the no progress timeout in secon
+ds
+/SETNOPROGRESSTIMEOUT <job> <timeout> Sets the no progress timeout in seconds
+/GETMAXDOWNLOADTIME <job>             Retrieves the download timeout in seconds
+/SETMAXDOWNLOADTIME <job> <timeout>   Sets the download timeout in seconds
+/GETERRORCOUNT <job>                  Retrieves an error count for the job
+
+/SETPROXYSETTINGS <job> <usage>      Sets the proxy usage
+   usage choices:
+    PRECONFIG   - Use the owner's default Internet settings.
+    AUTODETECT  - Force autodetection of proxy.
+    NO_PROXY    - Do not use a proxy server.
+    OVERRIDE    - Use an explicit proxy list and bypass list.
+                  Must be followed by a proxy list and a proxy bypass list.
+                  NULL or "" may be used for an empty proxy bypass list.
+  Examples:
+      bitsadmin /setproxysettings MyJob PRECONFIG
+      bitsadmin /setproxysettings MyJob AUTODETECT
+      bitsadmin /setproxysettings MyJob NO_PROXY
+      bitsadmin /setproxysettings MyJob OVERRIDE proxy1:80 "<local>"
+      bitsadmin /setproxysettings MyJob OVERRIDE proxy1,proxy2,proxy3 NULL
+
+/GETPROXYUSAGE <job>                 Retrieves the proxy usage setting
+/GETPROXYLIST <job>                  Retrieves the proxy list
+/GETPROXYBYPASSLIST <job>            Retrieves the proxy bypass list
+
+/TAKEOWNERSHIP <job>                 Take ownership of the job
+
+/SETNOTIFYCMDLINE <job> <program_name> [program_parameters]
+    Sets a program to execute for notification, and optionally parameters.
+    The program name and parameters can be NULL.
+    IMPORTANT: if parameters are non-NULL, then the program name should be the
+               first parameter.
+
+  Examples:
+    bitsadmin /SetNotifyCmdLine MyJob c:\winnt\system32\notepad.exe  NULL
+    bitsadmin /SetNotifyCmdLine MyJob c:\foo.exe "c:\foo.exe parm1 parm2"
+    bitsadmin /SetNotifyCmdLine MyJob NULL NULL
+
+/GETNOTIFYCMDLINE <job>              Returns the job's notification command line
+
+
+/SETCREDENTIALS <job> <target> <scheme> <username> <password>
+  Adds credentials to a job.
+  <target> may be either SERVER or PROXY
+  <scheme> may be BASIC, DIGEST, NTLM, NEGOTIATE, or PASSPORT.
+
+/REMOVECREDENTIALS <job> <target> <scheme>
+  Removes credentials from a job.
+/GETCUSTOMHEADERS <job>                           Gets the Custom HTTP Headers
+/SETCUSTOMHEADERS <job> <header1> <header2> <...> Sets the Custom HTTP Headers
+/GETCLIENTCERTIFICATE <job>                       Gets the job's Client Certific
+ate Information
+/SETCLIENTCERTIFICATEBYID <job> <store_location> <store_name> <hexa-decimal_cert
+_id>
+  Sets a client authentication certificate to a job.
+  <store_location> may be
+        1(CURRENT_USER), 2(LOCAL_MACHINE), 3(CURRENT_SERVICE),
+        4(SERVICES), 5(USERS), 6(CURRENT_USER_GROUP_POLICY),
+        7(LOCAL_MACHINE_GROUP_POLICY) or 8(LOCAL_MACHINE_ENTERPRISE).
+
+/SETCLIENTCERTIFICATEBYNAME <job> <store_location> <store_name> <subject_name>
+  Sets a client authentication certificate to a job.
+  <store_location> may be
+        1(CURRENT_USER), 2(LOCAL_MACHINE), 3(CURRENT_SERVICE),
+        4(SERVICES), 5(USERS), 6(CURRENT_USER_GROUP_POLICY),
+        7(LOCAL_MACHINE_GROUP_POLICY) or 8(LOCAL_MACHINE_ENTERPRISE).
+
+/REMOVECLIENTCERTIFICATE <job>                Removes the Client Certificate Inf
+ormation from the job
+
+/SETSECURITYFLAGS <job> <value>
+   Sets the HTTP security flags for URL redirection and checks performed on the
+server certificate during the transfer.
+   The value is an unsigned integer with the following interpretation for the bi
+ts in the binary representation.
+     Enable CRL Check                                 : Set the least significan
+t bit
+     Ignore invalid common name in server certificate : Set the 2nd bit from rig
+ht
+     Ignore invalid date in  server certificate       : Set the 3rd bit from rig
+ht
+     Ignore invalid certificate authority in server
+       certificate                                    : Set the 4th bit from rig
+ht
+     Ignore invalid usage of certificate              : Set the 5th bit from rig
+ht
+     Redirection policy                               : Controlled by the 9th-11
+th bits from right
+         0,0,0  - Redirects will be automatically allowed.
+         0,0,1  - Remote name in the IBackgroundCopyFile interface will be updat
+ed if a redirect occurs.
+         0,1,0  - BITS will fail the job if a redirect occurs.
+
+     Allow redirection from HTTPS to HTTP             : Set the 12th bit from ri
+ght
+
+/GETSECURITYFLAGS <job>
+   Reports the HTTP security flags for URL redirection and checks performed on t
+he server certificate during the transfer.
+
+/SETVALIDATIONSTATE  <job>  <file-index> <true|false>
+      <file-index> starts from 0
+    Sets the content-validation state of the given file within the job.
+
+/GETVALIDATIONSTATE  <job>  <file-index>
+      <file-index> starts from 0
+    Reports the content-validation state of the given file within the job.
+
+/GETTEMPORARYNAME  <job>  <file-index>
+      <file-index> starts from 0
+    Reports the temporary filename of the given file within the job.
+
+The following options control peercaching of a particular job:
+
+/SETPEERCACHINGFLAGS  <job> <value>
+    Sets the flags for the job's peercaching behavior.
+    The value is an unsigned integer with the following interpretation for the b
+its in the binary representation.
+        Allow the job's data to be downloaded from a peer : Set the least signif
+icant bit
+        Allow the job's data to be served to peers        : Set the 2nd bit from
+ right
+
+/GETPEERCACHINGFLAGS  <job>
+    Reports the flags for the job's peercaching behavior.
+
+The following options are valid for UPLOAD-REPLY jobs only:
+
+/GETREPLYFILENAME <job>        Gets the path of the file containing the server r
+eply
+/SETREPLYFILENAME <job> <path> Sets the path of the file containing the server r
+eply
+/GETREPLYPROGRESS <job>        Gets the size and progress of the server reply
+/GETREPLYDATA     <job>        Dumps the server's reply data in hex format
+
+The following options can be placed before the command:
+/RAWRETURN                     Return data more suitable for parsing
+/WRAP                          Wrap output around console (default)
+/NOWRAP                        Don't wrap output around console
+
+The /RAWRETURN option strips new line characters and formatting.
+It is recognized by the /CREATE and /GET* commands.
+
+Commands that take a <job> parameter will accept either a job name or a job ID
+GUID inside braces.  BITSADMIN reports an error if a name is ambiguous.
+C:\Users\user>help
+For more information on a specific command, type HELP command-name
+ASSOC          Displays or modifies file extension associations.
+ATTRIB         Displays or changes file attributes.
+BREAK          Sets or clears extended CTRL+C checking.
+BCDEDIT        Sets properties in boot database to control boot loading.
+CACLS          Displays or modifies access control lists (ACLs) of files.
+CALL           Calls one batch program from another.
+CD             Displays the name of or changes the current directory.
+CHCP           Displays or sets the active code page number.
+CHDIR          Displays the name of or changes the current directory.
+CHKDSK         Checks a disk and displays a status report.
+CHKNTFS        Displays or modifies the checking of disk at boot time.
+CLS            Clears the screen.
+CMD            Starts a new instance of the Windows command interpreter.
+COLOR          Sets the default console foreground and background colors.
+COMP           Compares the contents of two files or sets of files.
+COMPACT        Displays or alters the compression of files on NTFS partitions.
+CONVERT        Converts FAT volumes to NTFS.  You cannot convert the
+               current drive.
+COPY           Copies one or more files to another location.
+DATE           Displays or sets the date.
+DEL            Deletes one or more files.
+DIR            Displays a list of files and subdirectories in a directory.
+DISKCOMP       Compares the contents of two floppy disks.
+DISKCOPY       Copies the contents of one floppy disk to another.
+DISKPART       Displays or configures Disk Partition properties.
+DOSKEY         Edits command lines, recalls Windows commands, and
+               creates macros.
+DRIVERQUERY    Displays current device driver status and properties.
+ECHO           Displays messages, or turns command echoing on or off.
+ENDLOCAL       Ends localization of environment changes in a batch file.
+ERASE          Deletes one or more files.
+EXIT           Quits the CMD.EXE program (command interpreter).
+FC             Compares two files or sets of files, and displays the
+               differences between them.
+FIND           Searches for a text string in a file or files.
+FINDSTR        Searches for strings in files.
+FOR            Runs a specified command for each file in a set of files.
+FORMAT         Formats a disk for use with Windows.
+FSUTIL         Displays or configures the file system properties.
+FTYPE          Displays or modifies file types used in file extension
+               associations.
+GOTO           Directs the Windows command interpreter to a labeled line in
+               a batch program.
+GPRESULT       Displays Group Policy information for machine or user.
+GRAFTABL       Enables Windows to display an extended character set in
+               graphics mode.
+HELP           Provides Help information for Windows commands.
+ICACLS         Display, modify, backup, or restore ACLs for files and
+               directories.
+IF             Performs conditional processing in batch programs.
+LABEL          Creates, changes, or deletes the volume label of a disk.
+MD             Creates a directory.
+MKDIR          Creates a directory.
+MKLINK         Creates Symbolic Links and Hard Links
+MODE           Configures a system device.
+MORE           Displays output one screen at a time.
+MOVE           Moves one or more files from one directory to another
+               directory.
+OPENFILES      Displays files opened by remote users for a file share.
+PATH           Displays or sets a search path for executable files.
+PAUSE          Suspends processing of a batch file and displays a message.
+POPD           Restores the previous value of the current directory saved by
+               PUSHD.
+PRINT          Prints a text file.
+PROMPT         Changes the Windows command prompt.
+PUSHD          Saves the current directory then changes it.
+RD             Removes a directory.
+RECOVER        Recovers readable information from a bad or defective disk.
+REM            Records comments (remarks) in batch files or CONFIG.SYS.
+REN            Renames a file or files.
+RENAME         Renames a file or files.
+REPLACE        Replaces files.
+RMDIR          Removes a directory.
+ROBOCOPY       Advanced utility to copy files and directory trees
+SET            Displays, sets, or removes Windows environment variables.
+SETLOCAL       Begins localization of environment changes in a batch file.
+SC             Displays or configures services (background processes).
+SCHTASKS       Schedules commands and programs to run on a computer.
+SHIFT          Shifts the position of replaceable parameters in batch files.
+SHUTDOWN       Allows proper local or remote shutdown of machine.
+SORT           Sorts input.
+START          Starts a separate window to run a specified program or command.
+SUBST          Associates a path with a drive letter.
+SYSTEMINFO     Displays machine specific properties and configuration.
+TASKLIST       Displays all currently running tasks including services.
+TASKKILL       Kill or stop a running process or application.
+TIME           Displays or sets the system time.
+TITLE          Sets the window title for a CMD.EXE session.
+TREE           Graphically displays the directory structure of a drive or
+               path.
+TYPE           Displays the contents of a text file.
+VER            Displays the Windows version.
+VERIFY         Tells Windows whether to verify that your files are written
+               correctly to a disk.
+VOL            Displays a disk volume label and serial number.
+XCOPY          Copies files and directory trees.
+WMIC           Displays WMI information inside interactive command shell.
+
+For more information on tools see the command-line reference in the online help
+C:\Users\user>lodctr
+
+
+LODCTR
+    Updates registry values related to performance counters.
+
+Usage:
+    LODCTR <INI-FileName>
+        INI-FileName is the name of the initialization file that contains
+            the counter name definitions and explain text for an extensible
+            counter DLL.
+
+    LODCTR /S:<Backup-FileName>
+        save the current perf registry strings and info to <Backup-FileName>
+
+    LODCTR /R:<Backup-FileName>
+        restore the perf registry strings and info using <Backup-FileName>
+
+    LODCTR /R
+        rebuild the perf registry strings and info from scratch based on the cur
+rent
+            registry settings and backup INI files.
+
+    LODCTR /T:<Service-Name>
+        set the performance counter service as trusted.
+
+    LODCTR /E:<Service-Name>
+        enable the performance counter service.
+
+    LODCTR /D:<Service-Name>
+        disable the performance counter service.
+
+    LODCTR /Q
+
+    LODCTR /Q:<Service-Name>
+        query the performance counter service information, either query all or s
+pecified one.
+
+    LODCTR /M:<Counter-Manifest>
+        install Windows Vista performance counter provider definition XML file
+            to system repository.
+
+Note: any arguments with spaces in the names must be enclosed within
+Double Quotation marks.
