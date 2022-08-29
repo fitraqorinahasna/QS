@@ -26,3 +26,4 @@ print(shoplist[::2])
 print(shoplist[::3])
 
 print(shoplist[::-1])
+
