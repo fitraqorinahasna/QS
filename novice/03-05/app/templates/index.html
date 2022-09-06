@@ -25,13 +25,13 @@ tr:nth-child(even) {
     
 </head> 
 <body>
-    <div>
+    <div class="container my-5">
         <h1> ini request </h1>
         <form action="" method="post">
-            <label for="">nama</label>
-            <input name="nama" type="text" required>
-            <label for="">detail</label>
-            <input name="detail" type="text" required>
+            <label for="exampleFormControlInput1" class="form-label">nama</label>
+            <input class="form-control" name="nama" type="text" required>
+            <label for="exampleFormControlInput1" class="form-label">detail</label>
+            <input class="form-control" name="detail" type="text" required>
             <button type="submit">kirim</button>
 
         </form>
@@ -47,7 +47,7 @@ tr:nth-child(even) {
             </tr>
             {% for d in context %}
             <tr>
-                <td>{{d[0]}}</td>
+                <td>{{loop.index}}</td>
                 <td>{{d[1]}}</td>
                 <td>
                     <a href="/detail/{{d[0]}}">
