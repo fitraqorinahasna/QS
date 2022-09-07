@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+    
+</head> 
+<body>
+    <div class="container my-5">
+        <h1> Data Uang Kas </h1>
+        <form action="" method="post">
+            <label for="exampleFormControlInput1" class="form-label">tanggal</label>
+            <input class="form-control" name="tanggal" type="date" required>
+            <label for="exampleFormControlInput1" class="form-label">tempat</label>
+            <input class="form-control" name="tempat" type="text" required>
+            <label for="exampleFormControlInput1" class="form-label">masuk</label>
+            <input class="form-control" name="masuk" type="text" required>
+            <label for="exampleFormControlInput1" class="form-label">keluar</label>
+            <input class="form-control" name="keluar" type="text" required>
+            <button type="submit">kirim</button>
+
+        </form>
+        
+        <hr>
+        <h1>ini respons</h1>
+
+        <table>
+            <tr>
+                <th>id</th>
+                <th>tanggal</th>
+                <th>tempat</th>
+                <th>masuk</th>
+                <th>keluar</th>
+            </tr>
+            {% for d in context %}
+            <tr>
+                <td>{{loop.index}}</td>
+                <td>{{d[1]}}</td>
+                <td>{{d[2]}}</td>
+                <td>{{d[3]}}</td>
+                <td>{{d[4]}}</td>
+                <!-- <td>
+                    <a href="/masuk/{{d[0]}}">
+                        <button>masuk</button>
+                    </a>
+                    <a href="/keluar/{{d[0]}}">
+                        <button>keluar</button>
+                    </a>
+                </td> -->
+            </tr>
+            {% endfor %}
+        </table>
+            
+    
+    </div>
+ </body>
+</html>
