@@ -29,6 +29,25 @@ def index():
     conn.close()
     return render_template("index.html", context=data)
 
+@app.route("/delete/<uangkas_id>")
+def delete(uangkas_id):
+    conn = psycopg2.connect(
+        host="localhost",
+        database="tugas",
+        user="postgres",
+        password="fitraqorina25"
+        )
+    curs = conn.cursor()
+    # if request.method =="POST"
+    #       nama = request.form.get("nama")
+    #       detail.request.form.get("detail")
+    query = f"delete from uangkas where id = {uangkas_id}"
+    curs.execute(query)
+    conn.commit()
+    curs.close()
+    conn.close()
+    return redirect("/")
+
 # @app.route("/masuk/<uangkas_id>")
 # def masuk(uangkas_id):
 #     conn = psycopg2.connect(
