@@ -5,6 +5,7 @@
 # for name, phone in table.items():
 #     print(f'{name:10} ==> {phone:10d}')
 
-animals = 'eels'
-print(f'My hovercraft is full of {animals}.')
-print(f'My hovercraft is full of {animals!r}.')
+# animals = 'eels'
+# print(f'My hovercraft is full of {animals}.')
+# print(f'My hovercraft is full of {animals!r}.')
+

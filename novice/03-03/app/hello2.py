@@ -23,3 +23,11 @@ with app.test_request_context():
 
 if __name__ == "__main__":
     app.run()
+
+...
+Create  = POST
+Read    = GET 
+Update  = PUT
+Delete  = Delete
+...
+
